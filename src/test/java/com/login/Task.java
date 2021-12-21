@@ -22,6 +22,7 @@ public class Task {
 		WebElement btnClick = driver.findElement(By.xpath("//input[@type='submit']"));
 		btnClick.click();
 		
+		System.out.println("done by dev");
 		WebElement element = driver.findElement(By.xpath("//span[contains(text(),'iPhone 12 (128GB) - Green')]//ancestor::div[@class='a-section a-spacing-none']//child::span[@class='a-price-whole']"));
 		
 		System.out.println(element.getText());
